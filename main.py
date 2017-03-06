@@ -19,6 +19,8 @@ while(player1win != winnumber and player2win != winnumber):
     if(player1roll<player2roll):
         print("player2 won the round")
         player2win += 1
+    print(player1win)
+    print(player2win)
 if(player1roll==winnumber):
     print("player1 won the game")
 if(player2roll==winnumber):
